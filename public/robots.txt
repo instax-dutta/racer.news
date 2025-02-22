@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /.next/
+Disallow: /api/
+Sitemap: https://www.racer.news/sitemap.xml

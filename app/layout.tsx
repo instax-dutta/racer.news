@@ -11,20 +11,20 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Racer Solutions | Professional Portfolio Websites for Students",
-  description: "Creating professional portfolio websites for students and fresh graduates",
-  metadataBase: new URL("https://racersolutions.vercel.app"),
+  description: "Professional portfolio websites for students and fresh graduates.",
+  metadataBase: new URL("https://www.racer.news"),
   openGraph: {
     title: "Racer Solutions | Professional Portfolio Websites for Students",
-    description: "Creating professional portfolio websites for students and fresh graduates",
-    url: "https://racersolutions.vercel.app",
-    siteName: "Racer Solutions",
+    description: "Professional portfolio websites for students and fresh graduates.",
+    url: "https://www.racer.news",
+    siteName: "Racer.news",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Racer Solutions | Professional Portfolio Websites for Students",
-    description: "Creating professional portfolio websites for students and fresh graduates",
+    description: "Professional portfolio websites for students and fresh graduates.",
   },
     generator: 'v0.dev'
 }
