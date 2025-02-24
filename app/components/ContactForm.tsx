@@ -128,22 +128,18 @@ export default function ContactForm() {
             <Alert variant="default" className="border-primary/50 bg-primary/5">
               <CheckCircle2 className="h-5 w-5 text-primary" />
               <AlertTitle className="text-2xl font-bold mb-4">Thanks for Your Order!</AlertTitle>
-              <AlertDescription className="space-y-4">
+              <AlertDescription>
                 <p className="text-lg text-muted-foreground">
                   We're excited to start creating your professional portfolio. Our team will review your details and get
                   back to you within 24 hours to begin the development process.
                 </p>
-                <div className="text-sm text-muted-foreground mt-4 space-y-2">
-                  <p>Order Reference: #{Math.random().toString(36).substr(2, 9).toUpperCase()}</p>
-                  <p>A confirmation email has been sent to your inbox.</p>
-                </div>
               </AlertDescription>
             </Alert>
             <div className="mt-8 space-y-4">
               <p className="text-muted-foreground">
                 Have questions? Feel free to reach out to us at{" "}
-                <a href="mailto:support@racersolutions.com" className="text-primary hover:underline">
-                  support@racersolutions.com
+                <a href="mailto:support@racer.news" className="text-primary hover:underline">
+                  support@racer.news
                 </a>
               </p>
               <Button variant="outline" onClick={() => setResult("")}>

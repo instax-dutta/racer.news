@@ -10,12 +10,12 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Racer Solutions | Professional Portfolio Websites for Students",
-  description: "Professional portfolio websites for students and fresh graduates.",
+  title: "Racer Solutions | Portfolio Websites for Students & Graduates",
+  description: "Get a professional portfolio website to showcase your skills and experience. We help students and fresh graduates create stunning online portfolios.",
   metadataBase: new URL("https://www.racer.news"),
   openGraph: {
-    title: "Racer Solutions | Professional Portfolio Websites for Students",
-    description: "Professional portfolio websites for students and fresh graduates.",
+    title: "Racer Solutions | Portfolio Websites for Students & Graduates",
+    description: "Get a professional portfolio website to showcase your skills and experience. We help students and fresh graduates create stunning online portfolios.",
     url: "https://www.racer.news",
     siteName: "Racer.news",
     locale: "en_US",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Racer Solutions | Professional Portfolio Websites for Students",
-    description: "Professional portfolio websites for students and fresh graduates.",
+    title: "Racer Solutions | Portfolio Websites for Students & Graduates",
+    description: "Get a professional portfolio website to showcase your skills and experience. We help students and fresh graduates create stunning online portfolios.",
   },
     generator: 'v0.dev'
 }

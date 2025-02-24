@@ -1,4 +1,8 @@
 User-agent: *
 Disallow: /.next/
 Disallow: /api/
+Disallow: /_next/static/
+Disallow: /_next/data/
+Disallow: /server/
+Disallow: /static/chunks/
 Sitemap: https://www.racer.news/sitemap.xml
